@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <a class="btn" href="/" left><- back</a> 
+    {% if students %} <h2>User details By id</h2>
+        {% for student in students %}
+            <b>Full Name</b>: {{student.first_name}} {{student.last_name}}<br>
+            <b>Email </b>: {{student.email}} <br>
+            <b>Gender</b> :
+                {% if student.gender == 'M' %}
+                Male<br>
+                {% elif student.gender == 'F' %}
+                Female <br>
+                {% else %}
+                
+                {% endif %}
+
+            <b>School</b>: {{student.school}} <br>
+            <b>School no</b>: {{student.school.phone_number}} <br>
+            <b>Book</b>: {{student.book.name}} <br>
+            <b>page read count </b> : {{student.pages_read_count}} <br>
+        {% endfor %}
+    {% endif %}
+</div>
+
+
+
+
+
+
+{% endblock content %}

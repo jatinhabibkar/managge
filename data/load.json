@@ -1,0 +1,782 @@
+[{
+    "model": "home.book",
+    "pk": 0,
+    "fields": {
+        "name": "Basic Instinct",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 1,
+    "fields": {
+        "name": "Big Nothing",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 2,
+    "fields": {
+        "name": "Billy Bathgate",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 3,
+    "fields": {
+        "name": "book",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 4,
+    "fields": {
+        "name": "Connections",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 5,
+    "fields": {
+        "name": "Genghis Blues",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 6,
+    "fields": {
+        "name": "Keane",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 7,
+    "fields": {
+        "name": "My Chauffeur",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 8,
+    "fields": {
+        "name": "Opera Jawa",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 9,
+    "fields": {
+        "name": "Sands of Iwo Jima",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.book",
+    "pk": 10,
+    "fields": {
+        "name": "She Cried No (Freshman Fall)",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 0,
+    "fields": {
+        "name": "Amos Comenius Memorial School",
+        "phone_number": "+9178638222",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 1,
+    "fields": {
+        "name": "B.L. Morrison",
+        "phone_number": "+9140027137",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 2,
+    "fields": {
+        "name": "Henry Gordon Academy",
+        "phone_number": "+9134313747",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 3,
+    "fields": {
+        "name": "J.C. Erhardt Memorial School",
+        "phone_number": "+9187310523",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 4,
+    "fields": {
+        "name": "Jens Haven Memorial",
+        "phone_number": "+9172650797",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 5,
+    "fields": {
+        "name": "Lake Melville School",
+        "phone_number": "+9145908529",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 6,
+    "fields": {
+        "name": "Menihek High School",
+        "phone_number": "+9167555896",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 7,
+    "fields": {
+        "name": "Mud Lake School",
+        "phone_number": "+9125165097",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 8,
+    "fields": {
+        "name": "Northern Lights Academy",
+        "phone_number": "+9186124009",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 9,
+    "fields": {
+        "name": "Peacock Primary School",
+        "phone_number": "+9116846103",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 10,
+    "fields": {
+        "name": "Queen of Peace Middle School",
+        "phone_number": "+9164981377",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 11,
+    "fields": {
+        "name": "St. Peter's School",
+        "phone_number": "+9134196462",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.school",
+    "pk": 12,
+    "fields": {
+        "name": "William Gillett Academy",
+        "phone_number": "+9123485767",
+        "is_active": "True"
+    }
+}, {
+    "model": "home.student",
+    "pk": 1,
+    "fields": {
+        "first_name": "Andy",
+        "last_name": "Andy",
+        "email": "afullegar0@wsj.com",
+        "gender": "F",
+        "school": 2,
+        "book": 9,
+        "pages_read_count": "6"
+    }
+}, {
+    "model": "home.student",
+    "pk": 2,
+    "fields": {
+        "first_name": "Lucy",
+        "last_name": "Lucy",
+        "email": "lolifard1@macromedia.com",
+        "gender": "N",
+        "school": 5,
+        "book": 4,
+        "pages_read_count": "25"
+    }
+}, {
+    "model": "home.student",
+    "pk": 3,
+    "fields": {
+        "first_name": "Brianne",
+        "last_name": "Brianne",
+        "email": "breaman2@clickbank.net",
+        "gender": "N",
+        "school": 6,
+        "book": 1,
+        "pages_read_count": "7"
+    }
+}, {
+    "model": "home.student",
+    "pk": 4,
+    "fields": {
+        "first_name": "Lorrie",
+        "last_name": "Lorrie",
+        "email": "lfison3@nationalgeographic.com",
+        "gender": "M",
+        "school": 3,
+        "book": 10,
+        "pages_read_count": "8595"
+    }
+}, {
+    "model": "home.student",
+    "pk": 5,
+    "fields": {
+        "first_name": "Alyss",
+        "last_name": "Alyss",
+        "email": "aharcombe4@toplist.cz",
+        "gender": "F",
+        "school": 0,
+        "book": 1,
+        "pages_read_count": "4072"
+    }
+}, {
+    "model": "home.student",
+    "pk": 6,
+    "fields": {
+        "first_name": "Cirillo",
+        "last_name": "Cirillo",
+        "email": "cferby5@cbsnews.com",
+        "gender": "N",
+        "school": 8,
+        "book": 8,
+        "pages_read_count": "841"
+    }
+}, {
+    "model": "home.student",
+    "pk": 7,
+    "fields": {
+        "first_name": "Sandor",
+        "last_name": "Sandor",
+        "email": "shylands6@rambler.ru",
+        "gender": "M",
+        "school": 6,
+        "book": 7,
+        "pages_read_count": "4"
+    }
+}, {
+    "model": "home.student",
+    "pk": 8,
+    "fields": {
+        "first_name": "Lev",
+        "last_name": "Lev",
+        "email": "lboyford7@zdnet.com",
+        "gender": "M",
+        "school": 5,
+        "book": 1,
+        "pages_read_count": "943"
+    }
+}, {
+    "model": "home.student",
+    "pk": 9,
+    "fields": {
+        "first_name": "Gram",
+        "last_name": "Gram",
+        "email": "gmecchi8@mysql.com",
+        "gender": "M",
+        "school": 12,
+        "book": 6,
+        "pages_read_count": "1"
+    }
+}, {
+    "model": "home.student",
+    "pk": 10,
+    "fields": {
+        "first_name": "Glenine",
+        "last_name": "Glenine",
+        "email": "gblakey9@whitehouse.gov",
+        "gender": "F",
+        "school": 10,
+        "book": 4,
+        "pages_read_count": "728"
+    }
+}, {
+    "model": "home.student",
+    "pk": 11,
+    "fields": {
+        "first_name": "Grady",
+        "last_name": "Grady",
+        "email": "gdigginsa@youtu.be",
+        "gender": "M",
+        "school": 12,
+        "book": 5,
+        "pages_read_count": "5"
+    }
+}, {
+    "model": "home.student",
+    "pk": 12,
+    "fields": {
+        "first_name": "Edlin",
+        "last_name": "Edlin",
+        "email": "ecotterelb@blinklist.com",
+        "gender": "M",
+        "school": 11,
+        "book": 1,
+        "pages_read_count": "249"
+    }
+}, {
+    "model": "home.student",
+    "pk": 13,
+    "fields": {
+        "first_name": "Abraham",
+        "last_name": "Abraham",
+        "email": "acrothersc@comsenz.com",
+        "gender": "M",
+        "school": 6,
+        "book": 10,
+        "pages_read_count": "945"
+    }
+}, {
+    "model": "home.student",
+    "pk": 14,
+    "fields": {
+        "first_name": "Hedwig",
+        "last_name": "Hedwig",
+        "email": "henglefieldd@mapquest.com",
+        "gender": "F",
+        "school": 8,
+        "book": 1,
+        "pages_read_count": "3497"
+    }
+}, {
+    "model": "home.student",
+    "pk": 15,
+    "fields": {
+        "first_name": "Chrisse",
+        "last_name": "Chrisse",
+        "email": "cblackburnee@geocities.jp",
+        "gender": "M",
+        "school": 11,
+        "book": 9,
+        "pages_read_count": "8"
+    }
+}, {
+    "model": "home.student",
+    "pk": 16,
+    "fields": {
+        "first_name": "Estelle",
+        "last_name": "Estelle",
+        "email": "etatteshallf@archive.org",
+        "gender": "F",
+        "school": 6,
+        "book": 0,
+        "pages_read_count": "7497"
+    }
+}, {
+    "model": "home.student",
+    "pk": 17,
+    "fields": {
+        "first_name": "Robinet",
+        "last_name": "Robinet",
+        "email": "rgodbertg@geocities.com",
+        "gender": "M",
+        "school": 2,
+        "book": 8,
+        "pages_read_count": "35"
+    }
+}, {
+    "model": "home.student",
+    "pk": 18,
+    "fields": {
+        "first_name": "Hadrian",
+        "last_name": "Hadrian",
+        "email": "hdunawayh@cnbc.com",
+        "gender": "M",
+        "school": 7,
+        "book": 1,
+        "pages_read_count": "6780"
+    }
+}, {
+    "model": "home.student",
+    "pk": 19,
+    "fields": {
+        "first_name": "Dominik",
+        "last_name": "Dominik",
+        "email": "dbarricki@amazon.com",
+        "gender": "M",
+        "school": 12,
+        "book": 0,
+        "pages_read_count": "2690"
+    }
+}, {
+    "model": "home.student",
+    "pk": 20,
+    "fields": {
+        "first_name": "Caitlin",
+        "last_name": "Caitlin",
+        "email": "cwhaphamj@cnn.com",
+        "gender": "F",
+        "school": 10,
+        "book": 1,
+        "pages_read_count": "901"
+    }
+}, {
+    "model": "home.student",
+    "pk": 21,
+    "fields": {
+        "first_name": "Theodore",
+        "last_name": "Theodore",
+        "email": "tgentrick@free.fr",
+        "gender": "N",
+        "school": 1,
+        "book": 1,
+        "pages_read_count": "2751"
+    }
+}, {
+    "model": "home.student",
+    "pk": 22,
+    "fields": {
+        "first_name": "Lurleen",
+        "last_name": "Lurleen",
+        "email": "lsticklerl@whitehouse.gov",
+        "gender": "F",
+        "school": 8,
+        "book": 1,
+        "pages_read_count": "6"
+    }
+}, {
+    "model": "home.student",
+    "pk": 23,
+    "fields": {
+        "first_name": "Hasheem",
+        "last_name": "Hasheem",
+        "email": "hgotm@cnn.com",
+        "gender": "M",
+        "school": 0,
+        "book": 1,
+        "pages_read_count": "11"
+    }
+}, {
+    "model": "home.student",
+    "pk": 24,
+    "fields": {
+        "first_name": "Johnette",
+        "last_name": "Johnette",
+        "email": "jshaudfurthn@yandex.ru",
+        "gender": "F",
+        "school": 12,
+        "book": 2,
+        "pages_read_count": "9"
+    }
+}, {
+    "model": "home.student",
+    "pk": 25,
+    "fields": {
+        "first_name": "Angel",
+        "last_name": "Angel",
+        "email": "asoutero@europa.eu",
+        "gender": "N",
+        "school": 6,
+        "book": 1,
+        "pages_read_count": "31"
+    }
+}, {
+    "model": "home.student",
+    "pk": 26,
+    "fields": {
+        "first_name": "Montgomery",
+        "last_name": "Montgomery",
+        "email": "mbalmp@ftc.gov",
+        "gender": "N",
+        "school": 10,
+        "book": 9,
+        "pages_read_count": "99"
+    }
+}, {
+    "model": "home.student",
+    "pk": 27,
+    "fields": {
+        "first_name": "Frank",
+        "last_name": "Frank",
+        "email": "ftilneyq@wix.com",
+        "gender": "N",
+        "school": 8,
+        "book": 1,
+        "pages_read_count": "2"
+    }
+}, {
+    "model": "home.student",
+    "pk": 28,
+    "fields": {
+        "first_name": "Ianthe",
+        "last_name": "Ianthe",
+        "email": "imerigeaur@eepurl.com",
+        "gender": "F",
+        "school": 11,
+        "book": 7,
+        "pages_read_count": "6"
+    }
+}, {
+    "model": "home.student",
+    "pk": 29,
+    "fields": {
+        "first_name": "Monica",
+        "last_name": "Monica",
+        "email": "mpasquales@home.pl",
+        "gender": "F",
+        "school": 4,
+        "book": 1,
+        "pages_read_count": "4"
+    }
+}, {
+    "model": "home.student",
+    "pk": 30,
+    "fields": {
+        "first_name": "Belicia",
+        "last_name": "Belicia",
+        "email": "bcardillot@multiply.com",
+        "gender": "F",
+        "school": 1,
+        "book": 1,
+        "pages_read_count": "653"
+    }
+}, {
+    "model": "home.student",
+    "pk": 31,
+    "fields": {
+        "first_name": "Basil",
+        "last_name": "Basil",
+        "email": "byedyu@free.fr",
+        "gender": "N",
+        "school": 2,
+        "book": 7,
+        "pages_read_count": "44"
+    }
+}, {
+    "model": "home.student",
+    "pk": 32,
+    "fields": {
+        "first_name": "Milzie",
+        "last_name": "Milzie",
+        "email": "mgyurkovicsv@gizmodo.com",
+        "gender": "F",
+        "school": 2,
+        "book": 4,
+        "pages_read_count": "9889"
+    }
+}, {
+    "model": "home.student",
+    "pk": 33,
+    "fields": {
+        "first_name": "Tierney",
+        "last_name": "Tierney",
+        "email": "tmoulsdallw@stanford.edu",
+        "gender": "F",
+        "school": 11,
+        "book": 2,
+        "pages_read_count": "9"
+    }
+}, {
+    "model": "home.student",
+    "pk": 34,
+    "fields": {
+        "first_name": "Petey",
+        "last_name": "Petey",
+        "email": "povesenx@blogtalkradio.com",
+        "gender": "N",
+        "school": 5,
+        "book": 1,
+        "pages_read_count": "1587"
+    }
+}, {
+    "model": "home.student",
+    "pk": 35,
+    "fields": {
+        "first_name": "Nola",
+        "last_name": "Nola",
+        "email": "nstappardy@imageshack.us",
+        "gender": "F",
+        "school": 10,
+        "book": 0,
+        "pages_read_count": "7354"
+    }
+}, {
+    "model": "home.student",
+    "pk": 36,
+    "fields": {
+        "first_name": "Durant",
+        "last_name": "Durant",
+        "email": "dbeckenz@blinklist.com",
+        "gender": "M",
+        "school": 1,
+        "book": 10,
+        "pages_read_count": "5199"
+    }
+}, {
+    "model": "home.student",
+    "pk": 37,
+    "fields": {
+        "first_name": "Otis",
+        "last_name": "Otis",
+        "email": "obediss10@google.com.au",
+        "gender": "N",
+        "school": 7,
+        "book": 1,
+        "pages_read_count": "3305"
+    }
+}, {
+    "model": "home.student",
+    "pk": 38,
+    "fields": {
+        "first_name": "Diane-marie",
+        "last_name": "Diane-marie",
+        "email": "dtommen11@ask.com",
+        "gender": "F",
+        "school": 1,
+        "book": 1,
+        "pages_read_count": "60"
+    }
+}, {
+    "model": "home.student",
+    "pk": 39,
+    "fields": {
+        "first_name": "Lotte",
+        "last_name": "Lotte",
+        "email": "lclell12@rambler.ru",
+        "gender": "N",
+        "school": 9,
+        "book": 2,
+        "pages_read_count": "6"
+    }
+}, {
+    "model": "home.student",
+    "pk": 40,
+    "fields": {
+        "first_name": "Sherwin",
+        "last_name": "Sherwin",
+        "email": "spert13@uiuc.edu",
+        "gender": "M",
+        "school": 1,
+        "book": 8,
+        "pages_read_count": "697"
+    }
+}, {
+    "model": "home.student",
+    "pk": 41,
+    "fields": {
+        "first_name": "Anallese",
+        "last_name": "Anallese",
+        "email": "athireau14@omniture.com",
+        "gender": "F",
+        "school": 2,
+        "book": 1,
+        "pages_read_count": "6756"
+    }
+}, {
+    "model": "home.student",
+    "pk": 42,
+    "fields": {
+        "first_name": "Chancey",
+        "last_name": "Chancey",
+        "email": "clehr15@prlog.org",
+        "gender": "N",
+        "school": 12,
+        "book": 1,
+        "pages_read_count": "81"
+    }
+}, {
+    "model": "home.student",
+    "pk": 43,
+    "fields": {
+        "first_name": "Tristam",
+        "last_name": "Tristam",
+        "email": "toram16@berkeley.edu",
+        "gender": "M",
+        "school": 11,
+        "book": 6,
+        "pages_read_count": "7"
+    }
+}, {
+    "model": "home.student",
+    "pk": 44,
+    "fields": {
+        "first_name": "Niel",
+        "last_name": "Niel",
+        "email": "nmacgaughey17@discuz.net",
+        "gender": "M",
+        "school": 1,
+        "book": 7,
+        "pages_read_count": "10"
+    }
+}, {
+    "model": "home.student",
+    "pk": 45,
+    "fields": {
+        "first_name": "Koo",
+        "last_name": "Koo",
+        "email": "kfavela18@com.com",
+        "gender": "F",
+        "school": 5,
+        "book": 1,
+        "pages_read_count": "88"
+    }
+}, {
+    "model": "home.student",
+    "pk": 46,
+    "fields": {
+        "first_name": "Roger",
+        "last_name": "Roger",
+        "email": "rsterre19@github.com",
+        "gender": "M",
+        "school": 1,
+        "book": 5,
+        "pages_read_count": "8"
+    }
+}, {
+    "model": "home.student",
+    "pk": 47,
+    "fields": {
+        "first_name": "Dalston",
+        "last_name": "Dalston",
+        "email": "dalway1a@creativecommons.org",
+        "gender": "M",
+        "school": 2,
+        "book": 1,
+        "pages_read_count": "8799"
+    }
+}, {
+    "model": "home.student",
+    "pk": 48,
+    "fields": {
+        "first_name": "Ryley",
+        "last_name": "Ryley",
+        "email": "rgostridge1b@un.org",
+        "gender": "M",
+        "school": 1,
+        "book": 0,
+        "pages_read_count": "33"
+    }
+}, {
+    "model": "home.student",
+    "pk": 49,
+    "fields": {
+        "first_name": "Loralee",
+        "last_name": "Loralee",
+        "email": "lpanton1c@wsj.com",
+        "gender": "F",
+        "school": 11,
+        "book": 1,
+        "pages_read_count": "89"
+    }
+}, {
+    "model": "home.student",
+    "pk": 50,
+    "fields": {
+        "first_name": "Lainey",
+        "last_name": "Lainey",
+        "email": "lcrossfield1d@yolasite.com",
+        "gender": "N",
+        "school": 2,
+        "book": 6,
+        "pages_read_count": "918"
+    }
+}]

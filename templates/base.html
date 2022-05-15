@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- local css -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Managge</title>
+</head>
+
+
+<body>
+
+    <nav class="nav-extended">
+        <div class="nav-wrapper red accent-2 ">
+            <a href="/" class="brand-logo center ">managge</a>
+        </div>
+        {% if request.path == '/' %}
+        <div class="nav-content">
+            <ul class="tabs tabs-transparent red accent-2">
+                <li class="tab"><a href="#home">home</a></li>
+                {% if students %}
+                <li class="tab"><a href="#search" class="active">search</a></li>
+                {% else %}
+                <li class="tab"><a href="#search">search</a></li>
+                {% endif %}
+            </ul>
+        </div>
+        {% endif %}
+    </nav>
+    <div class="space"></div>
+    <div class="container">
+        {% include 'partials/_alert.html' %}
+    </div>
+
+    {% block content %}
+
+    {% endblock %}
+
+
+</body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const elems = document.querySelectorAll('select');
+        const elemstab = document.querySelectorAll('.tabs')
+        const instances = M.FormSelect.init(elems);
+        const instance = M.Tabs.init(elemstab);
+    });
+</script>
+
+</html>
