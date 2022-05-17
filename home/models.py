@@ -11,8 +11,6 @@ GENDER_CHOICES = (
     
 class Book(models.Model):
 
-    def getname(thename):
-        return thename.split(',')[0] 
     
     name = models.CharField(max_length=400)
     is_active = models.BooleanField(default=True)
@@ -22,8 +20,6 @@ class Book(models.Model):
 
 class School(models.Model):
 
-    def getname(thename):
-        return thename.split(',')[0] 
     
     name = models.CharField(max_length=300)
     phone_regex = RegexValidator(regex=r'^\+?1?\d{9,15}$', message="Phone number must be entered in the format: '+999999999'. Up to 15 digits allowed.")
